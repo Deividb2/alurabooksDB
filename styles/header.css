@@ -1,0 +1,64 @@
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1em;
+}
+
+.cabecalho__menu-hamburguer {
+    width: 1.5em;
+    height: 1.5em;
+    background: url(../img/Menu.svg)no-repeat center center / cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 0.5em;
+}
+
+/* MENU */
+
+.menu-nav {
+    width: 18.75em;
+    height: 21.5em;
+    background-color: var(--branco);
+    position: absolute;
+    left: -18.75em;
+    transition: all 0.5s linear;
+    font-family: 'Poppins';
+}
+
+.menu-navAtivo {
+    position: absolute;
+    left: 0 !important;
+}
+
+.menu-nav__lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 21.5em;
+    box-sizing: border-box;
+    padding: 1.25em 2.25em;
+}
+
+.menu-nav__lista--li-link:not(.especial) {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--azul-escuro);
+}
+
+.especial {
+    color: #EB9B00;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 1em;
+}

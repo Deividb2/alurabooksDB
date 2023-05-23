@@ -1,0 +1,44 @@
+.comecar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(97.54deg, var(--azul-escuro) 35.49%, var(--azul-claro) 165.37%);
+    width: 100vw;
+    height: 13.438em;
+    color: var(--branco);
+    font-family: 'Poppins';
+    padding: 1em 0;
+}
+
+.comecar__titulo {
+    font-weight: 700;
+    line-height: 1.688em;
+    font-size: 1.125em;
+}
+
+.comecar__paragrafo {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 500;
+    text-align: center;
+    width: 19.75em;
+}
+
+.comecar__pesquisa {
+    width: 22.5em;
+    height: 2.75em;
+    margin: 0 0.625em;
+    background-color: transparent;
+    border: none;
+    outline: 1px solid var(--branco);
+    border-radius: 1.5em;
+    text-align: center;
+}
+
+.comecar__pesquisa::placeholder {
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 0.875em;
+    font-family: 'Poppins';
+}
