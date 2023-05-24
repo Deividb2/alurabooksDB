@@ -30,7 +30,7 @@
     position: absolute;
     left: -18.75em;
     transition: all 0.5s linear;
-    font-family: 'Poppins';
+    font-family: var(--fonte-principal);
 }
 
 .menu-navAtivo {

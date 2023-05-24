@@ -7,7 +7,7 @@
     width: 100vw;
     height: 13.438em;
     color: var(--branco);
-    font-family: 'Poppins';
+    font-family: var(--fonte-principal);
     padding: 1em 0;
 }
 
@@ -28,17 +28,22 @@
 .comecar__pesquisa {
     width: 22.5em;
     height: 2.75em;
-    margin: 0 0.625em;
+    padding: 0 0.625em;
     background-color: transparent;
     border: none;
     outline: 1px solid var(--branco);
     border-radius: 1.5em;
-    text-align: center;
 }
 
 .comecar__pesquisa::placeholder {
     color: var(--branco);
     font-weight: 400;
     font-size: 0.875em;
-    font-family: 'Poppins';
+    font-family: var(--fonte-principal);
+    background: url(../img/Lupa.svg) no-repeat 1.5em;
+    text-align: center;
+}
+
+.comecar__pesquisa:focus {
+    color: var(--branco);
 }

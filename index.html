@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alurabooks</title>
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -37,8 +37,28 @@
     <section class="comecar">
         <h1 class="comecar__titulo">Já sabe por onde começar?</h1>
         <p class="comecar__paragrafo">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
-        <input type="text" placeholder="Qual será sua próxima leitura?" class="comecar__pesquisa">
+        <input type="search" placeholder="Qual será sua próxima leitura?" class="comecar__pesquisa">
     </section>
 
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
+        <div class="swiper">
+            <div class="swiper-pagination"></div>>
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/ApacheKafka.png" alt="Livro sobre ApacheKafka"></div>
+                <div class="swiper-slide"><img src="img/Liderança.png" alt="Livro sobre liderança"></div>
+                <div class="swiper-slide"><img src="img/Javascript.png" alt="Livro sobre Javascript"></div>
+                <div class="swiper-slide"><img src="img/Guia Front-end.png" alt="Livro sobre guia Front-end"></div>
+                <div class="swiper-slide"><img src="img/Portugol.png" alt="Livro sobre portugol"></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
