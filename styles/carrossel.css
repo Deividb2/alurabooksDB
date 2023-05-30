@@ -21,3 +21,106 @@
     position: initial;
     margin: 0.5em 0;
 }
+
+/* CARD */
+.card {
+    font-family: var(--fonte-principal);
+    padding: 1em;
+    background-color: var(--branco);
+    width: 21.875em;
+    height: 18.438em;
+    box-shadow: 0px 0.25em 0.25em rgba(0, 0, 0, 0.25);
+    border-radius: 0.625em;
+    margin: 1.25em 1.5em;
+}
+
+.card__bloco1 {
+    display: flex;
+}
+
+.card__bloco1-titulo1 {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: var(--laranja);
+    font-weight: 700;
+    width: 11.188em;
+    height: 3em;
+}
+
+.card__bloco1-titulo2 {
+    width: 8.938em; 
+    height: 3.375em;
+    font-size: 1em;
+    line-height: 1.688em;
+    font-weight: 700;
+    color: var(--azul-escuro);
+    margin: 0.625em 0;
+}
+
+.card__bloco1-paragrafo {
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 1.313em;
+    width: 9.25em;
+    height: 4.063em;
+    color: var(--preto);
+}
+
+.card__bloco1-img {
+    background: url(../img/Angular.png) no-repeat center center / cover;
+    width: 11.75em;
+    height: 11.75em;
+    
+}
+
+.card__bloco2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.25em;
+}
+
+
+.card__bloco2--link {
+    background-color: var(--laranja);
+    width: 9.438em;
+    height: 3em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* MAIS VENDIDOS */
+
+.estrelinhas {
+    margin: 0.625em 0;
+}
+
+.card__bloco1-titulo1__mais-vendidos {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: var(--laranja);
+    font-weight: 700;
+    width: 7.438em;
+    height: 1.5em;
+}
+
+.card__bloco1-titulo2__mais-vendidos {
+    width: 9.938em; 
+    height: 1.688em;
+    font-size: 18px;
+    line-height: 1.688em;
+    font-weight: 700;
+    color: var(--azul-escuro);
+    margin: 0.625em 0.625em 0.625em 0;
+}
+
+.card__bloco1-img_mais-vendidos {
+    background: url(../img/Perfil-escritora\ 1-1.png) no-repeat center center / cover;
+    width: 10.063em;
+    height: 10.375em;
+}

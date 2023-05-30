@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +10,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="cabecalho">
         <div class="container">
-            <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            <span class="container__imagem"><img src="img/Menu.svg" alt="Menu" class="cabecalho__menu-hamburguer"></span>
             <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
         </div>
 
@@ -55,10 +57,104 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
+
+        <section class="card">
+            <div class="card__bloco1">
+                <div>
+                    <h2 class="card__bloco1-titulo1">Talvez você também se interesse por...</h2>
+                    <h2 class="card__bloco1-titulo2">Angular 11 e Firebase</h2>
+                    <p class="card__bloco1-paragrafo">Construindo uma aplicação integrada com a plataforma do Google.
+                    </p>
+                </div>
+                <div class="card__bloco1-img"></div>
+            </div>
+
+            <div class="card__bloco2">
+                <div>
+                    <img src="img/Favoritos.svg" alt="ícone de favoritos">
+                    <img src="img/Compras.svg" alt="ícone de compras">
+                </div>
+                <a href="#" class="card__bloco2--link">Saiba mais</a>
+            </div>
+        </section>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/ApacheKafka.png" alt="Livro sobre ApacheKafka"></div>
+                <div class="swiper-slide"><img src="img/Liderança.png" alt="Livro sobre liderança"></div>
+                <div class="swiper-slide"><img src="img/Javascript.png" alt="Livro sobre Javascript"></div>
+                <div class="swiper-slide"><img src="img/Guia Front-end.png" alt="Livro sobre guia Front-end"></div>
+                <div class="swiper-slide"><img src="img/Portugol.png" alt="Livro sobre portugol"></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <section class="card">
+            <div class="card__bloco1">
+                <div>
+                    <div class="estrelinhas">
+                        <span><img src="img/Estrelinhas.png" alt="estrela"></span>
+                    </div>
+                    <h2 class="card__bloco1-titulo1__mais-vendidos">Autora do Mês</h2>
+                    <h2 class="card__bloco1-titulo2__mais-vendidos">Juliana Agarikov</h2>
+                    <p class="card__bloco1-paragrafo">Analista de sistemas e escritora, Juliana é especialista em
+                        Front-End.</p>
+                </div>
+                <div class="card__bloco1-img_mais-vendidos"></div>
+            </div>
+
+            <div class="card__bloco2">
+                <div>
+                    <img src="img/Favoritos.svg" alt="ícone de favoritos">
+                    <img src="img/Compras.svg" alt="ícone de compras">
+                </div>
+                <a href="#" class="card__bloco2--link">Saiba mais</a>
+            </div>
+        </section>
+    </section>
+
+    <section class="novidades">
+        <section class="topicos-visitados">
+            <h2 class="topicos-visitados__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+            <div class="topicos-align">
+                <div class="topicos-visitados__topicos topicos1">
+                    <div class="topicos">Android</div>
+                    <div class="topicos">Marketing Digital</div>
+                    <div class="topicos">Agile</div>
+                </div>
+    
+                <div class="topicos-visitados__topicos topicos2">
+                    <div class="topicos">Startups</div>
+                    <div class="topicos">HTML & CSS</div>
+                    <div class="topicos">Python</div>
+                </div>
+    
+                <div class="topicos-visitados__topicos topicos3">
+                    <div class="topicos">OO</div>
+                    <div class="topicos">Java</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contato">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato_paragrafo">Atualizações de e-books, novos livros, promoções e outros.</p>
+            <input type="search" class="contato__email" placeholder="Cadastre seu e-mail">
+        </section>
+        <footer class="rodape">
+            <h2 class="rodape__titulo">Grupo Alura</h2>
+        </footer>
     </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
 </body>
+
 </html>

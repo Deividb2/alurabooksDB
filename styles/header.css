@@ -9,7 +9,7 @@
 .cabecalho__menu-hamburguer {
     width: 1.5em;
     height: 1.5em;
-    background: url(../img/Menu.svg)no-repeat center center / cover;
+    /* background: url(../img/Menu.svg)no-repeat center center / cover; */
 }
 
 .container {
@@ -31,6 +31,7 @@
     left: -18.75em;
     transition: all 0.5s linear;
     font-family: var(--fonte-principal);
+    z-index: 2;
 }
 
 .menu-navAtivo {

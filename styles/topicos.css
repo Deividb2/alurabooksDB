@@ -1,0 +1,108 @@
+.novidades {
+    padding-top: 0.938em;
+    background-color: var(--branco);
+}
+
+.topicos-visitados {
+    background: linear-gradient(97.54deg, var(--azul-escuro) 35.49%, var(--azul-claro) 165.37%);
+    height: 18.438em;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.topicos-visitados__titulo {
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: center;
+    color: var(--branco); 
+    padding-top: 1.25em;
+}
+
+.topicos-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topicos-visitados__topicos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin: 0.625em;
+}
+
+.topicos {
+    background-color: var(--laranja);
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 0.875em;
+    padding: 0.813em 1.313em;
+    height: 3.125em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topicos1 {
+    padding-left: .5em;
+}
+.topicos2 {
+    padding: 0 1em;
+}
+
+.topicos3 {
+    padding: 0 6em;
+}
+
+.contato{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1.25em;
+    border-bottom: 1px solid var(--cinza);
+}
+
+.contato__titulo{
+    font-size: 1.1em;
+    font-weight: 500;
+    color: var(--azul-escuro);
+}
+
+.contato_paragrafo{
+    width: 23.813em;
+    height: 2.938em;
+    font-weight: 300;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: var(--azul-escuro);
+    margin: 1.25em 0;
+}
+
+.contato__email{
+    height: 2.75em;
+    border-radius: 1.5em;
+    border: none;
+    outline: 1px solid var(--azul-escuro);
+    font-size: 1em;
+    text-align: center;
+}
+
+.contato__email::placeholder {
+    color: var(--azul-escuro);
+}
+
+.rodape {
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding-left: 1.25em;
+}
+
+.rodape__titulo {
+    font-size: 1em;
+}
